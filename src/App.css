@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 24rem;
+}
+
+.btnGroup {
+  padding: 1em;
+}
+
+.yesBtn {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.noBtn {
+  margin-right: 16px;
+  margin-left: 16px;
+}
