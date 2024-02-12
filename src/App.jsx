@@ -25,7 +25,7 @@ export default function App() {
   ]
 
   const handleYesBtn = () => {
-    setPicture('/milk_mocha_valentines_2.png')
+    setPicture('./milk_mocha_valentines_2.png')
     setText('Yay, I love you <3')
     setshowButton(false)
   }
