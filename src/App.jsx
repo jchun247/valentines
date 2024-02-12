@@ -4,16 +4,16 @@ import './App.css'
 export default function App() {
 
   const [text, setText] = useState('Will you be my Valentine Alessandra?')
-  const [picture, setPicture] = useState('/milk_mocha_valentines_1.png')
+  const [picture, setPicture] = useState('./milk_mocha_valentines_1.png')
   const [counter, setCounter] = useState(0)
   const [showButton, setshowButton] = useState(true)
 
   const noBtnPicList = [
-    '/sad_cat_with_gun.png',
-    '/sad-cat.gif',
-    '/milk-and-mocha-cry.gif',
-    '/milk-mocha-sad-1.png',
-    '/milk-mocha-sad-2.png'
+    './sad_cat_with_gun.png',
+    './sad-cat.gif',
+    './milk-and-mocha-cry.gif',
+    './milk-mocha-sad-1.png',
+    './milk-mocha-sad-2.png'
   ]
 
   const noBtnText = [
